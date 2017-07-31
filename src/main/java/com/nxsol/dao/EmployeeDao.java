@@ -1,8 +1,8 @@
-package com.sam.dao;
+package com.nxsol.dao;
 
 import java.util.List;
 
-import com.sam.modal.EmployeeModal;
+import com.nxsol.modal.EmployeeModal;
 
 public interface EmployeeDao {
 	

@@ -165,7 +165,7 @@
 	</div>
 	<div class="col-md-12 w3-teal" style="position: absolute; top: 94%;">
 			<center>
-				<h5>Copyright by Samir Patel</h5>
+				<h5>Copyright by Nxperts Solutions</h5>
 			</center>
 		</div>
 	</div>

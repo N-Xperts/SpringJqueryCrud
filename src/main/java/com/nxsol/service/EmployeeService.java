@@ -1,9 +1,9 @@
-package com.sam.service;
+package com.nxsol.service;
 
 import java.util.List;
 
-import com.sam.bean.EmployeeBean;
-import com.sam.modal.EmployeeModal;
+import com.nxsol.bean.EmployeeBean;
+import com.nxsol.modal.EmployeeModal;
 
 public interface EmployeeService {
 

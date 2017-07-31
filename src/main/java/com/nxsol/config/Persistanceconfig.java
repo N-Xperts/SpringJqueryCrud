@@ -1,4 +1,4 @@
-package com.sam.config;
+package com.nxsol.config;
 
 import java.util.Properties;
 
@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@PropertySource(value="classpath:com/sam/resource/config.properties")
+@PropertySource(value="classpath:com/nxsol/resource/config.properties")
 public class Persistanceconfig {
 
 	//Database 
@@ -56,7 +56,7 @@ public class Persistanceconfig {
 	public SessionFactory sessionFactory()
 	{
 		LocalSessionFactoryBuilder builder=new LocalSessionFactoryBuilder(dataSource());
-		builder.scanPackages("com.sam");
+		builder.scanPackages("com.nxsol");
 		builder.addProperties(hibernateProperties());
 		return builder.buildSessionFactory();
 	}

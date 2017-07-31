@@ -1,4 +1,4 @@
-package com.sam.config;
+package com.nxsol.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -18,7 +18,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan({"com.sam.*"})
+@ComponentScan({"com.nxsol.*"})
 public class AppConfig extends WebMvcConfigurerAdapter {
 	
 	@Override

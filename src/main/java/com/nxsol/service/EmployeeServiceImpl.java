@@ -1,4 +1,4 @@
-package com.sam.service;
+package com.nxsol.service;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.sam.bean.EmployeeBean;
-import com.sam.dao.EmployeeDao;
-import com.sam.modal.EmployeeModal;
+import com.nxsol.bean.EmployeeBean;
+import com.nxsol.dao.EmployeeDao;
+import com.nxsol.modal.EmployeeModal;
 
 @Service
 @Transactional(readOnly=false,propagation=Propagation.REQUIRED)

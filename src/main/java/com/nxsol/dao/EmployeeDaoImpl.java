@@ -1,4 +1,4 @@
-package com.sam.dao;
+package com.nxsol.dao;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.hibernate.criterion.Projections;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.sam.modal.EmployeeModal;
+import com.nxsol.modal.EmployeeModal;
 
 @Repository
 public class EmployeeDaoImpl implements EmployeeDao {

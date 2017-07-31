@@ -1,4 +1,4 @@
-package com.sam.controller;
+package com.nxsol.controller;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -21,9 +21,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.sam.bean.EmployeeBean;
-import com.sam.modal.EmployeeModal;
-import com.sam.service.EmployeeService;
+import com.nxsol.bean.EmployeeBean;
+import com.nxsol.modal.EmployeeModal;
+import com.nxsol.service.EmployeeService;
 
 
 

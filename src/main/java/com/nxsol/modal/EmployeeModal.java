@@ -1,4 +1,4 @@
-package com.sam.modal;
+package com.nxsol.modal;
 
 import javax.enterprise.inject.Default;
 import javax.persistence.Column;

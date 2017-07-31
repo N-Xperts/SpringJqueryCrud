@@ -1,11 +1,12 @@
-package com.sam.bean;
+package com.nxsol.bean;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 //import org.hibernate.validator.constraints.NotEmpty;
 
-import com.sam.modal.EmployeeModal;
+
+import com.nxsol.modal.EmployeeModal;
 
 @SuppressWarnings("serial")
 public class EmployeeBean {
