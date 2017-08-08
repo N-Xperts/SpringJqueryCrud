@@ -25,11 +25,11 @@ public class Persistanceconfig {
 	@Value("${DatabaseUrl}")
 	private String DatabaseUrl;
 	
-	@Value("${Username}")
-	private String Username;
+	@Value("${uname}")
+	private String uname;
 	
-	@Value("${Password}")
-	private String Password;
+	@Value("${pwd}")
+	private String pwd;
 	
 	//Hibernate
 	@Value("${HibernateDialect}")
@@ -44,11 +44,12 @@ public class Persistanceconfig {
 	@Bean(name="dataSource")
 	public DriverManagerDataSource dataSource()
 	{
+		System.out.println("username===="+uname);
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName(DriverClassName);
 		dataSource.setUrl(DatabaseUrl);
-		dataSource.setUsername(Username);
-		dataSource.setPassword(Password);
+		dataSource.setUsername(uname);
+		dataSource.setPassword(pwd);
 		return dataSource;
 	}
 	
